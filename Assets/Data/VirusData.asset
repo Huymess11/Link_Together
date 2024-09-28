@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b988821bd34e1b846984108e6ef4d4c3, type: 3}
+  m_Name: VirusData
+  m_EditorClassIdentifier: 
+  virusData:
+  - id: 0
+    virusPrefab: {fileID: 2926165409175810111, guid: c21e7c962c33a034cac143e88628c905, type: 3}
+  - id: 1
+    virusPrefab: {fileID: 4148541253466192630, guid: da115eb40f31a8345a1b5b198e64550e, type: 3}
+  - id: 2
+    virusPrefab: {fileID: 8948981083804833773, guid: 12788667742b0b84ba36ba24248e70ed, type: 3}
+  - id: 3
+    virusPrefab: {fileID: 6663904371684271116, guid: 57519377914d5954e849e96ce36f8e6d, type: 3}
+  - id: 4
+    virusPrefab: {fileID: 3694119827942428566, guid: 614a17b6734a2d043a8823d518d89a6e, type: 3}
