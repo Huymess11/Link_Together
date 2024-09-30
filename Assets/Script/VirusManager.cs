@@ -54,7 +54,7 @@ public class VirusManager : MonoBehaviour
     private void SpawnSingleVirus()
     {
         int index = Random.Range(0, spawnPos.Count);
-        int virusIndex = Random.Range(0, virusDatabase.virusData.Count - 1);
+        int virusIndex = Random.Range(0, virusDatabase.virusData.Count);
         PhotonNetwork.Instantiate(virusDatabase.virusData[virusIndex].virusPrefab.name, spawnPos[index].position, Quaternion.identity);
     }
 
